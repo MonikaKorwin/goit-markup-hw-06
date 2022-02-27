@@ -1065,12 +1065,6 @@ top: 261px;
 
 
 .modal-tittle{
- /* position: absolute;
-width: 448px;
-height: 23px;
-left: 576px;
-top: 261px; */
-
 font-family: var(--main-font);
 font-style: normal;
 font-weight: bold;
@@ -1113,7 +1107,43 @@ box-sizing: border-box;
 border-radius: 4px;
 width: 448px;
 height: 120px;
+padding-bottom: 20px;
 }
+
+.user-policy-text::before{
+display: inline-block;
+content:"";
+width: 16px;
+height: 16px;
+outline: 1px solid #000000;
+border-radius: 2px;
+padding-left: 8px;
+}
+.modal-form-policy:checked + .user-policy-text::before{
+  background-color: var(--main-color);
+  border: 3px solid transparent;
+  outline:none;
+  background-image: url(../images/done_bird.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.policy-text-link{
+  color: var(--main-color);
+}
+.visually-hidden{
+  position:absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+
 .button-form-send{
 
 width: 200px;
