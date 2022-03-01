@@ -180,6 +180,7 @@ fill: var(--main-color);
 .social-icon-header-smartphone:focus{
   fill: var(--main-color); 
 }
+
   .social-icon-header-link:hover,
   .social-icon-header-link:focus{
    color: var(--main-color);
