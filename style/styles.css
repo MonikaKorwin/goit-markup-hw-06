@@ -810,7 +810,15 @@ font:none;
   display: flex;
 align-items: flex-start;
 } 
+.footer-icon-register{
+  fill: #FFFFFF;
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+  position:relative;
+  top:5px;
 
+}
 
 .join-to-us,
 .join-to-us-porfolio{
@@ -861,7 +869,10 @@ padding-top:9px;
 margin-left:0px;
 }
 
+.form-icon-register{
+  fill:#FFFFFF;
 
+}
 
 
 .social-icon-footer{
@@ -1186,7 +1197,7 @@ width: 448px;
 height: 120px;
 padding-left: 16px; 
 padding-top:12px;
-
+resize: none;
 
 
 }
