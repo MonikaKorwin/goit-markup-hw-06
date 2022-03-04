@@ -586,6 +586,7 @@ margin-bottom:30px;
   align-items: center;
 
 
+
  }
 .team-member-social-list{
   display: flex;
@@ -603,12 +604,17 @@ margin-bottom:30px;
 background-color: var(--main-color);
 fill:#FFFFFF;
 }
-.social-icon:hover,
+/* .social-icon:hover,
 .social-icon:focus{
-  fill: #FFFFFF;
-} 
+  fill: #FFFFFF; 
+}  */
 
 
+
+ .team-member-social-list-link:hover
+.social-icon{
+  fill:#FFFFFF; 
+}  
 
 /* <!-- end-the-our-team --> */
 
