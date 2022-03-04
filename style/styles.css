@@ -181,14 +181,29 @@ fill: var(--main-color);
   fill: var(--main-color); 
 }
 
+
+
   .social-icon-header-link:hover,
   .social-icon-header-link:focus{
    color: var(--main-color);
    fill:var(--main-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-     } 
-
+     }  
+.social-icon-header-link:hover 
+.social-icon-header-mail {
+ fill: var(--main-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
+ 
+}
+.social-icon-header-link:hover 
+.social-icon-header-smartphone {
+ fill: var(--main-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
   .social-icon-header-mail{
     margin-right: 10px;
