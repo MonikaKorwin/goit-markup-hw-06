@@ -1242,11 +1242,13 @@ resize: none;
   
 } 
 .form-icon-email{
-  left:12px; 
-  position: absolute; 
-  
-  padding-top:10px;
- /* left:12px; */
+  /* left:12px;  */
+  position: relative;  
+  margin-bottom:29px;
+ padding-left:12px; 
+ height: 18px;
+ bottom:29px;
+ 
 
 }
 
